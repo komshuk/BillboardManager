@@ -26,7 +26,7 @@ public class BillboardManager {
 
     public String[] findlast() {
         int resultlength;
-        if (films.length < 10) {
+        if (films.length < limit) {
             resultlength = films.length;
         } else {
             resultlength = 10;
