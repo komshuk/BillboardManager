@@ -29,7 +29,7 @@ public class BillboardManager {
         if (films.length < limit) {
             resultlength = films.length;
         } else {
-            resultlength = 10;
+            resultlength = limit;
         }
         String[] tmp = new String[resultlength];
         for (int i = 0; i < tmp.length; i++) {
